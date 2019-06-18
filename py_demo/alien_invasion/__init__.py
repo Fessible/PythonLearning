@@ -1,6 +1,8 @@
 import pygame
 import sys
-from settings import Settings
+from alien_invasion.settings import Settings
+from alien_invasion.ship import Ship
+from alien_invasion.game_function import check_events
 
 
 def run_game():
@@ -10,6 +12,7 @@ def run_game():
 
     # 设置屏幕大小
     screen = pygame.display.set_mode((ai_setting.screen_width, ai_setting.screen_height))
+    ship = Ship(screen,ai_setting)
 
     pygame.display.set_caption("Alien Invasion")
 
@@ -19,15 +22,19 @@ def run_game():
     # 开始游戏的主循环
     while True:
         # 监视键盘和鼠标事件
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                sys.exit()
+        check_events(ship)
+        update_screen(screen, bg_color, ship)
 
-        # 每次循环时都重绘屏幕
-        screen.fill(bg_color)
 
-        # 让最近绘制的屏幕可见
-        pygame.display.flip()
+def update_screen(screen, bg_color, ship):
+    # 每次循环时都重绘屏幕
+    screen.fill(bg_color)
+
+    ship.blitme()
+    ship.update()
+
+    # 让最近绘制的屏幕可见
+    pygame.display.flip()
 
 
 run_game()
