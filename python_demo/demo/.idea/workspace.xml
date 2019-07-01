@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a05eda48-16a2-4613-becd-d4aebb3f40a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scrap_net/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrap_net/scrap_one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrap_net/test_net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrap_net/scrap_two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../books/进阶/网络编程/HTTP权威指南.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../books/进阶/网络编程/图解HTTP+彩色版.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../books/进阶/网络编程/网络是怎样连接的_户根勤.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrap_net/scrap_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_net/scrap_one.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,11 +91,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrap_net/scrap_one.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scrap_net/scrap_two.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="8" selection-end-column="26" />
+              <caret selection-end-line="7" selection-end-column="18" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -132,10 +146,11 @@
         <option value="$PROJECT_DIR$/stdlib_log/stdlib_logging.py" />
         <option value="$PROJECT_DIR$/scrap_net/test_net.py" />
         <option value="$PROJECT_DIR$/scrap_net/scrap_one.py" />
+        <option value="$PROJECT_DIR$/scrap_net/scrap_two.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
     <option name="y" value="54" />
     <option name="width" value="1920" />
@@ -187,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scrap_one">
+  <component name="RunManager" selected="Python.scrap_two">
     <configuration name="scrap_one" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,6 +217,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrap_net/scrap_one.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scrap_two" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrap_net" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrap_net/scrap_two.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,35 +313,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="udp_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_demo/udp_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scrap_two" />
         <item itemvalue="Python.scrap_one" />
         <item itemvalue="Python.test_net" />
         <item itemvalue="Python.stdlib_logging" />
         <item itemvalue="Python.udp_client" />
-        <item itemvalue="Python.udp_server" />
       </list>
     </recent_temporary>
   </component>
@@ -320,23 +335,23 @@
       <updated>1561449033773</updated>
       <workItem from="1561449036925" duration="1574000" />
       <workItem from="1561513584638" duration="1112000" />
-      <workItem from="1561514928446" duration="9659000" />
+      <workItem from="1561514928446" duration="11127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12345000" />
+    <option name="totallyTimeSpent" value="13813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="54" width="1920" height="1002" extended-state="0" />
+    <frame x="1920" y="23" width="1920" height="996" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.50989014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5132743" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -360,12 +375,13 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/demo$socket_demo.coverage" NAME="socket_demo Coverage Results" MODIFIED="1561514560735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_demo" />
     <SUITE FILE_PATH="coverage/demo$server_demo.coverage" NAME="server_demo Coverage Results" MODIFIED="1561515877126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_demo" />
-    <SUITE FILE_PATH="coverage/demo$scrap_one.coverage" NAME="scrap_one Coverage Results" MODIFIED="1561965062025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrap_net" />
+    <SUITE FILE_PATH="coverage/demo$scrap_one.coverage" NAME="scrap_one Coverage Results" MODIFIED="1561969538681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrap_net" />
     <SUITE FILE_PATH="coverage/demo$client_demo.coverage" NAME="client_demo Coverage Results" MODIFIED="1561516033960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_demo" />
     <SUITE FILE_PATH="coverage/demo$udp_client.coverage" NAME="udp_client Coverage Results" MODIFIED="1561531457438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_demo" />
     <SUITE FILE_PATH="coverage/demo$test_net.coverage" NAME="test_net Coverage Results" MODIFIED="1561964041086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrap_net" />
     <SUITE FILE_PATH="coverage/demo$stdlib_logging.coverage" NAME="stdlib_logging Coverage Results" MODIFIED="1561535840200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stdlib_log" />
     <SUITE FILE_PATH="coverage/demo$udp_server.coverage" NAME="udp_server Coverage Results" MODIFIED="1561518827991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_demo" />
+    <SUITE FILE_PATH="coverage/demo$scrap_two.coverage" NAME="scrap_two Coverage Results" MODIFIED="1561970166189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrap_net" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web_demo/sina.html">
@@ -428,8 +444,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrap_net/scrap_one.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrap_net/scrap_two.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="8" selection-end-column="26" />
+          <caret selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

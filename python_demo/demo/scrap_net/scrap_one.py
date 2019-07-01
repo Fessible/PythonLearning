@@ -7,3 +7,6 @@ bsObject = BeautifulSoup(html.read(), features="html.parser")
 namelist = bsObject.findAll("span", {"class": "green"})
 for name in namelist:
     print(name.get_text())
+
+names = bsObject.findAll(text="the prince")
+print(len(names))
