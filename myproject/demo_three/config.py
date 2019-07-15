@@ -4,7 +4,7 @@ DIALECT = 'mysql'
 USER = 'root'
 PASSWORD = 'root'
 HOST = '127.0.0.1'
-DATABASE = 'flask_sql_demo'
+DATABASE = 'flask_demo'
 
 SQLALCHEMY_DATABASE_URI = '{}://{}:{}@{}/{}'.format(DIALECT, USER, PASSWORD, HOST, DATABASE)
 

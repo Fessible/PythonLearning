@@ -1,0 +1,16 @@
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.main {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 720px;
+    background-color: white;
+}
+

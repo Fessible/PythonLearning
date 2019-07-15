@@ -1,0 +1,39 @@
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.question-info {
+    text-align: center;
+}
+
+.question-content {
+    margin: 10px;
+}
+
+.form-comment {
+    margin: 20px;
+}
+
+.answer-list li {
+    list-style: none;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.user-info .username {
+    margin-left: 20px;
+}
+
+.user-info.answer-content {
+    margin-left: 20px;
+}
