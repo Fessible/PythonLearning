@@ -2,6 +2,7 @@
 
 
 from flask import Flask
+from app.models.book import db
 
 
 def create_app():
@@ -13,6 +14,10 @@ def create_app():
 
     # 注册蓝图
     register_blueprint(app)
+
+    # 数据库初始化
+    db.init_app(app)
+    db.create_all(app=app)
 
     return app
 

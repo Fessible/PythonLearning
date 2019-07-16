@@ -1,4 +1,4 @@
-from httper import HTTP
+from app.libs.httper import HTTP
 # 通过这个获取到当前的app
 from flask import current_app
 

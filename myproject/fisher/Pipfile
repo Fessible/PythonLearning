@@ -10,6 +10,8 @@ verify_ssl = true
 flask = "*"
 requests = "*"
 wtforms = "*"
+flask-sqlalchemy = "*"
+mysqlclient = "*"
 
 [requires]
 python_version = "3.7"

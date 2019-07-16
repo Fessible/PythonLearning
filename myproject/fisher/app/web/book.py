@@ -1,7 +1,7 @@
 from flask import jsonify, request
 
-from yushu_book import YuShuBook
-from helper import is_isbn_or_key
+from app.spider.yushu_book import YuShuBook
+from app.libs.helper import is_isbn_or_key
 # 这里导入的app，执行if __name__时==fisher，所以没有执行run
 # from fisher import app
 
