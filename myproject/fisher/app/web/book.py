@@ -1,6 +1,6 @@
 import json
 
-from flask import jsonify, request
+from flask import jsonify, request, render_template
 
 from app.spider.yushu_book import YuShuBook
 from app.libs.helper import is_isbn_or_key
@@ -42,3 +42,12 @@ def search():
         # books是一个对象，所以要讲books转化成dict
         return json.dumps(books, default=lambda o: o.__dict__)
     return jsonify(form.errors)
+
+
+@web.route('/test')
+def test():
+    data = {
+        'title': None
+    }
+
+    return render_template('test.html', data=data)
