@@ -17,7 +17,8 @@ def create_app():
 
     # 数据库初始化
     db.init_app(app)
-    db.create_all(app=app)
+    with app.app_context():
+        db.create_all()
 
     return app
 
