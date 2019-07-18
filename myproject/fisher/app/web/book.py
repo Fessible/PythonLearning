@@ -1,13 +1,13 @@
 """
  Created by 七月 on 2018-2-1.
 """
-from flask import jsonify, request, current_app, url_for, render_template, flash
+from flask import request, current_app, render_template, flash
+
 from app.forms.book import SearchForm
-import json
 
 from app.libs.helper import is_isbn_or_key
 from app.spider.yushu_book import YuShuBook
-from app.view_models.book import BookViewModel, BookCollection
+from app.view_models.book import BookCollection
 from . import web
 
 __author__ = '七月'
@@ -67,11 +67,12 @@ def test():
 def test1():
     print(id(current_app))
     from flask import request
-    from app.libs.none_local import n
-    print(n.v)
-    n.v = 2
-    print('-----------------')
-    print(getattr(request, 'v', None))
-    setattr(request, 'v', 2)
-    print('-----------------')
+    # from app.libs.none_local import n
+    # print(n.v)
+    # n.v = 2
+    # print('-----------------')
+    # print(getattr(request, 'v', None))
+    # setattr(request, 'v', 2)
+    # print('-----------------')
     return ''
+

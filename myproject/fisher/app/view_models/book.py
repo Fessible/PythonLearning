@@ -10,6 +10,17 @@ class BookViewModel:
         self.summary = book['summary'] or ''
         self.image = book['image']
 
+    # 用属性访问的方式来调用函数
+    @property
+    def intro(self):
+        # 希望输出 author/publisher/price 或者 author/price的格式
+        # if self.publisher:
+        #     pass
+        # if self.price:
+        #     pass
+        intros = filter(lambda x: True if x else False, [self.author, self.publisher, self.price])
+        return '/'.join(intros)
+
 
 class BookCollection:
     def __init__(self):

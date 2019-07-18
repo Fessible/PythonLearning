@@ -38,12 +38,14 @@
             <div class="row">
                 <div class="col-md-2 col-md-offset-1">
                     <a id="recent" href="{{ url_for('web.index') }}"
+{#                    <a id="recent" href="#"#}
                        class="flex-vertical-hor-center">
                         <img src="{{ url_for('static', filename='images/upload.png') }}"/>
                         <span>最近上传</span>
                     </a>
                 </div>
                 <div class="col-md-2">
+{#                    <a id="gifts" href=" #"#}
                     <a id="gifts" href="{{ url_for('web.my_gifts') }}"
                        class="flex-vertical-hor-center">
                         <img src="{{ url_for('static', filename='images/gift.png') }}"/>
@@ -52,6 +54,7 @@
                 </div>
                 <div class="col-md-2">
                     <a id="wishes" href="{{ url_for('web.my_wish') }}"
+{#                    <a id="wishes" href="#"#}
                        class="flex-vertical-hor-center">
                         <img src="{{ url_for('static', filename='images/wish.png') }}"/>
                         <span>心愿清单</span>
@@ -59,6 +62,7 @@
                 </div>
                 <div class="col-md-2">
                     <a id="pending" href="{{ url_for('web.pending') }}"
+{#                    <a id="pending" href="#"#}
                        class="flex-vertical-hor-center">
                         <img src="{{ url_for('static', filename='images/fish.png') }}"/>
                         <span>鱼漂</span>
@@ -79,6 +83,7 @@
         {% endif %}
     </div>
 {% endblock %}
+
 <div class='container'>
     <div class="row">
         {% with messages = get_flashed_messages() %}
