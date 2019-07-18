@@ -34,3 +34,8 @@ class YuShuBook:
         if data:
             self.total = data['total']
             self.books = data['books']
+
+    # 因为我们查询结果是 books[{},{}],是一个列表
+    @property
+    def first(self):
+        return self.books[0] if self.total >= 1 else None

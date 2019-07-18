@@ -9,6 +9,7 @@ class BookViewModel:
         self.author = '、'.join(book['author'])
         self.summary = book['summary'] or ''
         self.image = book['image']
+        self.isbn = book['isbn']
 
     # 用属性访问的方式来调用函数
     @property
@@ -22,6 +23,7 @@ class BookViewModel:
         return '/'.join(intros)
 
 
+
 class BookCollection:
     def __init__(self):
         self.total = 0
@@ -32,3 +34,5 @@ class BookCollection:
         self.total = yushu_book.total
         self.keyword = keyword
         self.books = [BookViewModel(book) for book in yushu_book.books]
+
+

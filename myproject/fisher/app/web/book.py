@@ -7,7 +7,7 @@ from app.forms.book import SearchForm
 
 from app.libs.helper import is_isbn_or_key
 from app.spider.yushu_book import YuShuBook
-from app.view_models.book import BookCollection
+from app.view_models.book import BookCollection, BookViewModel
 from . import web
 
 __author__ = '七月'
@@ -42,9 +42,15 @@ def search():
     return render_template('search_result.html', books=books)
 
 
+# 书籍信息
 @web.route('/book/<isbn>/detail')
 def book_detail(isbn):
-    pass
+    # 使用isbn进行搜索，然后将数据显示到详情页面
+    yushu_book = YuShuBook()
+    yushu_book.search_by_isbn(isbn)
+    # book = BookViewModel(yushu_book.first())
+    book = BookViewModel(yushu_book.first)
+    return render_template('book_detail.html', book=book, wishes=[], gifts=[])
 
 
 @web.route('/test')
@@ -75,4 +81,3 @@ def test1():
     # setattr(request, 'v', 2)
     # print('-----------------')
     return ''
-
