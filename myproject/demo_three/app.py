@@ -133,6 +133,5 @@ def context_processor():
                 return {'user': user}
     return {}
 
-
 if __name__ == '__main__':
     app.run()

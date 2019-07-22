@@ -1,0 +1,5 @@
+pip install requests
+pip install beautifulSoup4
+pip install pyecharts
+pip install html5lib
+pip install lxml

@@ -14,13 +14,6 @@
       <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/requests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo_three/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_three/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/gift.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/gift.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/spider/yushu_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/spider/yushu_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view_models/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/view_models/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/web/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/book.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/gift.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -386,7 +379,7 @@
       <workItem from="1563268407544" duration="1870000" />
       <workItem from="1563270318601" duration="7246000" />
       <workItem from="1563334088596" duration="160000" />
-      <workItem from="1563335648897" duration="21287000" />
+      <workItem from="1563335648897" duration="22683000" />
     </task>
     <task id="LOCAL-00001" summary="初始化鱼书">
       <created>1563184235240</created>
@@ -451,11 +444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563430078396</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="创建模型">
+      <created>1563437155685</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563437155685</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53373000" />
+    <option name="totallyTimeSpent" value="54769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1001" extended-state="0" />
@@ -466,7 +466,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26732674" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26732674" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28712872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,7 +536,8 @@
     <MESSAGE value="添加静态资源" />
     <MESSAGE value="添加资源" />
     <MESSAGE value="搜索界面修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="搜索界面修改" />
+    <MESSAGE value="创建模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建模型" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -814,8 +815,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/gift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
